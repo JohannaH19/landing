@@ -1,0 +1,110 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1, a {
+  color: white;
+}
+
+.banner p {
+  color: #bbb9b9;
+  font-size: 20px;
+}
+
+.container-banner {
+  width: 900px;
+  margin: auto;
+}
+
+.container-banner a {
+  background-color: #2dbf2d;
+  border: 1px solid #2cbf2d;
+  border-radius: 50px;
+  padding: 19px 39px;
+  display: inline-block;
+}
+
+.container-cards {
+  width: 900px;
+  margin: auto;
+
+}
+
+.container-cards h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container-cards p {
+  color: #bbb9b9;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-apply, .card-code, .card-product {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  width: 200px;
+  padding: 30px 20px;
+}
+
+.cards img {
+  height: 100px;
+}
+
+footer {
+  background-color: #313030;
+  margin: 0 auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+footer p {
+  color: #bbb9b9;
+}
+
+footer a {
+  font-size: 30px;
+  color: #2dbf2d;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a i{
+  height: : 100px;
+  color: green;
+}
+/* Custom design below! */
+
